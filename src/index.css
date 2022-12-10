@@ -18,11 +18,16 @@ code {
     monospace;
 }
 .favButton{
-  background-color: rgba(136, 136, 136, 0.116);
+  background-color: rgb(202, 202, 202);
   padding: 10px;
-  border: none;
+  border: 1px solid black;
   width: 100%;
   cursor: pointer;
+}
+
+.favButton:hover{
+  color:rgb(136, 136, 136);
+  border-color: rgb(136, 136, 136);
 }
 
 h1{
@@ -143,6 +148,16 @@ nav div{
 .buttonBackground2{
   background-color: white;
   border-color: rgb(255, 208, 0);
+}
+
+.buttonBackground1:hover{
+  cursor: pointer;
+  border-color: grey;
+}
+
+.buttonBackground2:hover{
+  cursor: pointer;
+  border-color: rgb(206, 217, 142);
 }
 
 .card img{
