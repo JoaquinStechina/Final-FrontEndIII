@@ -18,6 +18,7 @@ const Home = () => {
   return (
     <main className={state.theme}>
       <h1>Home</h1>
+      <br />
       <div className='card-grid'>
         {/* Aqui deberias renderizar las cards */}
         {state.data.map(e=><Card key={e.id} name={e.name} username={e.username} id={e.id}/>)}
